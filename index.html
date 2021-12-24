@@ -1,83 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Landing Page</title>
-  <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico">
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/fontawesome.css" />
-  <link rel="stylesheet" href="assets/vendors/css/glightbox.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-</head>
-
-<body>
-  <!-- Start the navbar section -->
-  <nav class="
+  <body>
+    <!-- Start the navbar section -->
+    <nav
+      class="
         navbar navbar-expand-lg navbar-dark
         bg-primary
         menu
         shadow
         fixed-top
-      ">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo image" /></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!-- Start the intro section -->
-  <section id="home" class="intro-section">
-    <div class="container">
-      <div class="row align-items-center text-white">
-        <!-- Start the content for the intro -->
-        <div class="col-md-6 intros text-start">
-          <h1 class="display-2">
-            <span class="display-2--intro">Improve your security posture.</span>
-            <span class="display-2--description lh-base">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-              veritatis, ad in esse veniam dolorum vel error ipsa autem delectus.</span>
-          </h1>
-          <button type="button" class="rounded-pill btn-rounded">
-            Learn more
-            <span>
-              <i class="fas fa-arrow-right"></i>
-            </span>
-          </button>
+      "
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="images/logo.png" alt="logo image"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
         </div>
-        <!-- Start the content for the video -->
-        <div class="col-md-6 intros text-end">
-          <div class="video-box">
-            <img src="images/arts/intro-section-illustration.png" alt="video illustration" class="img-fluid" />
-            <!-- <a href="#" class="
+      </div>
+    </nav>
+    <!-- Start the intro section -->
+    <section id="home" class="intro-section">
+      <div class="container">
+        <div class="row align-items-center text-white">
+          <!-- Start the content for the intro -->
+          <div class="col-md-6 intros text-start">
+            <h1 class="display-2">
+              <span class="display-2--intro"
+                >Improve your security posture.</span
+              >
+              <span class="display-2--description lh-base"
+                >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
+                veritatis, ad in esse veniam dolorum vel error ipsa autem
+                delectus.</span
+              >
+            </h1>
+            <button type="button" class="rounded-pill btn-rounded">
+              Learn more
+              <span>
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+          <!-- Start the content for the video -->
+          <div class="col-md-6 intros text-end">
+            <div class="video-box">
+              <img
+                src="images/arts/intro-section-illustration.png"
+                alt="video illustration"
+                class="img-fluid"
+              />
+              <!-- <a href="#" class="
                   glightbox
                   position-absolute
                   top-50
@@ -90,564 +114,608 @@
               <span class="border-animation border-animation--border-1"></span>
               <span class="border-animation border-animation--border-2"></span>
             </a> -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,128L48,133.3C96,139,192,149,288,144C384,139,480,117,576,106.7C672,96,768,96,864,117.3C960,139,1056,181,1152,192C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- Start the companies section -->
-  <section id="companies" class="companies">
-    <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Trusted by companies like</h4>
-        <div class="heading-line mb-5"></div>
-      </div>
-    </div>
-    <!-- Start the companies content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box">
-            <img src="images/companies/company-1.png" alt="company 1 logo" title="company 1 logo" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box">
-            <img src="images/companies/company-2.png" alt="company 2 logo" title="company 2 logo" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box">
-            <img src="images/companies/company-3.png" alt="company 3 logo" title="company 3 logo" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box">
-            <img src="images/companies/company-4.png" alt="company 4 logo" title="company 4 logo" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box">
-            <img src="images/companies/company-5.png" alt="company 5 logo" title="company 5 logo" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box">
-            <img src="images/companies/company-6.png" alt="company 6 logo" title="company 6 logo" class="img-fluid" />
-          </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#fff"
+          fill-opacity="1"
+          d="M0,128L48,133.3C96,139,192,149,288,144C384,139,480,117,576,106.7C672,96,768,96,864,117.3C960,139,1056,181,1152,192C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Start the companies section -->
+    <section id="companies" class="companies">
+      <div class="container">
+        <div class="row text-center">
+          <h4 class="fw-bold lead mb-3">Trusted by companies like</h4>
+          <div class="heading-line mb-5"></div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Start section 4 - The Services -->
-  <section id="services" class="services">
-    <div class="container">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold">Our Services</h1>
-        <div class="heading-line mb-1"></div>
-      </div>
-      <!-- Start the description content -->
-      <div class="row pt-2">
-        <div class="col-md-6 border-right">
-          <div class="bg-white p-3">
-            <h2 class="fw-bold text-capitalize text-center">
-              We’re not just protecting users, customers, and patients. We’re protecting your business as well.
-            </h2>
+      <!-- Start the companies content -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box">
+              <img
+                src="images/companies/company-1.png"
+                alt="company 1 logo"
+                title="company 1 logo"
+                class="img-fluid"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="bg-white p-4 text-start">
-            <p class="fw-light">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, rerum odio. Suscipit sint quas ea
-              reiciendis neque similique consequatur recusandae autem, mollitia assumenda aliquid, ex iusto tempore
-              distinctio molestiae! Eaque quibusdam, aperiam quaerat maiores suscipit nesciunt animi dicta placeat
-              commodi.
-            </p>
+          <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box">
+              <img
+                src="images/companies/company-2.png"
+                alt="company 2 logo"
+                title="company 2 logo"
+                class="img-fluid"
+              />
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- Start the content for the services -->
-    <div class="container">
-      <!-- Start the marketing content -->
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-          <div class="services__content">
-            <h3 class="display-3--title mt-1">Cyber Security Consulting</h3>
-            <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum aliquid adipisci vel pariatur ea quos
-              cum totam molestiae laborum accusantium maiores quasi eum expedita hic consequatur et nesciunt ut eveniet
-              porro corporis, possimus aliquam placeat? Sed officiis asperiores quo.
-            </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">
-              Learn more
-              <span>
-                <i class="fas fa-arrow-right"></i>
-              </span>
-            </button>
+          <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box">
+              <img
+                src="images/companies/company-3.png"
+                alt="company 3 logo"
+                title="company 3 logo"
+                class="img-fluid"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
-          <div class="services__pic">
-            <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid" />
+          <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box">
+              <img
+                src="images/companies/company-4.png"
+                alt="company 4 logo"
+                title="company 4 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box">
+              <img
+                src="images/companies/company-5.png"
+                alt="company 5 logo"
+                title="company 5 logo"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="companies__logo-box">
+              <img
+                src="images/companies/company-6.png"
+                alt="company 6 logo"
+                title="company 6 logo"
+                class="img-fluid"
+              />
+            </div>
           </div>
         </div>
       </div>
-      <!-- Start the web development content -->
-      <div class="row">
-        <div class="
+    </section>
+    <!-- Start section 4 - The Services -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold">Our Services</h1>
+          <div class="heading-line mb-1"></div>
+        </div>
+        <!-- Start the description content -->
+        <div class="row pt-2">
+          <div class="col-md-6 border-right">
+            <div class="bg-white p-3">
+              <h2 class="fw-bold text-capitalize text-center">
+                We’re not just protecting users, customers, and patients. We’re
+                protecting your business as well.
+              </h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="bg-white p-4 text-start">
+              <p class="fw-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi, rerum odio. Suscipit sint quas ea reiciendis neque
+                similique consequatur recusandae autem, mollitia assumenda
+                aliquid, ex iusto tempore distinctio molestiae! Eaque quibusdam,
+                aperiam quaerat maiores suscipit nesciunt animi dicta placeat
+                commodi.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start the content for the services -->
+      <div class="container">
+        <!-- Start the marketing content -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <h3 class="display-3--title mt-1">Cyber Security Consulting</h3>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                illum aliquid adipisci vel pariatur ea quos cum totam molestiae
+                laborum accusantium maiores quasi eum expedita hic consequatur
+                et nesciunt ut eveniet porro corporis, possimus aliquam placeat?
+                Sed officiis asperiores quo.
+              </p>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded border-primary"
+              >
+                Learn more
+                <span>
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
+          >
+            <div class="services__pic">
+              <img
+                src="images/services/service-1.png"
+                alt="marketing illustration"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Start the web development content -->
+        <div class="row">
+          <div
+            class="
               col-lg-6 col-md-6 col-sm-12 col-xs-12
               services
               mt-4
               text-start
-            ">
-          <div class="services__pic">
-            <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid" />
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-          <div class="services__content">
-            <h3 class="display-3--title mt-1">Penetration Testing</h3>
-            <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nisi praesentium, minima laudantium,
-              maiores consectetur deserunt, voluptas inventore reiciendis ab modi quisquam distinctio exercitationem
-              voluptatem quam cumque sequi est! Repellat ea, porro et quas iste eaque accusamus, maxime beatae aperiam
-              non, neque nostrum? Totam atque non, dolores dignissimos numquam quaerat.
-            </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">
-              Learn more
-              <span>
-                <i class="fas fa-arrow-right"></i>
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
-      <!-- Start the cloud hosting content -->
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
-          <div class="services__content">
-            <h3 class="display-3--title mt-1">Network Security Monitoring</h3>
-            <p class="lh-lg">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt est perferendis culpa sit dolor eaque
-              officia quidem non soluta doloremque harum saepe tempora, velit earum vel ipsam qui facilis iure,
-              assumenda, incidunt commodi reprehenderit consequuntur. In esse corporis dolorem ullam debitis maiores
-              nulla eius suscipit!
-            </p>
-            <button type="button" class="rounded-pill btn-rounded border-primary">
-              Learn more
-              <span>
-                <i class="fas fa-arrow-right"></i>
-              </span>
-            </button>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
-          <div class="services__pic">
-            <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Start section 5 - The Testimonials -->
-  <section id="testimonials" class="testimonials">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,224L48,224C96,224,192,224,288,186.7C384,149,480,75,576,58.7C672,43,768,85,864,106.7C960,128,1056,128,1152,144C1248,160,1344,192,1392,208L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-      </path>
-    </svg>
-    <div class="container">
-      <div class="row text-center text-white">
-        <h1 class="display-3 fw-bold">Testimonials</h1>
-        <hr style="width: 100px; height: 3px" class="mx-auto" />
-        <p class="lead pt-1">What our clients are saying</p>
-      </div>
-      <!-- Start the carousel content -->
-      <div class="row align-items-center">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <!-- Carousel Item 1 -->
-            <div class="carousel-item active">
-              <!-- testimonials card -->
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa reiciendis dignissimos perspiciatis
-                  odit ratione veritatis sed! Molestiae eaque explicabo qui!
-                  <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-              </div>
-              <!-- client picture -->
-              <div class="testimonials__picture">
-                <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
-              </div>
-              <!-- client name and role -->
-              <div class="testimonials__name">
-                <h3>Patrick Muriungi</h3>
-                <p class="fw-light">CEO & Founder</p>
-              </div>
-            </div>
-            <!-- Carousel Item 2 -->
-            <div class="carousel-item">
-              <!-- testimonials card -->
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa reiciendis dignissimos perspiciatis
-                  odit ratione veritatis sed! Molestiae eaque explicabo qui!
-                  <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-              </div>
-              <!-- client picture -->
-              <div class="testimonials__picture">
-                <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
-              </div>
-              <!-- client name and role -->
-              <div class="testimonials__name">
-                <h3>Joy Marete</h3>
-                <p class="fw-light">Finance Manager</p>
-              </div>
-            </div>
-            <!-- Carousel Item 3 -->
-            <div class="carousel-item">
-              <!-- testimonials card -->
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa reiciendis dignissimos perspiciatis
-                  odit ratione veritatis sed! Molestiae eaque explicabo qui!
-                  <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-              </div>
-              <!-- client picture -->
-              <div class="testimonials__picture">
-                <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
-              </div>
-              <!-- client name and role -->
-              <div class="testimonials__name">
-                <h3>ClaireBelle Zawadi</h3>
-                <p class="fw-light">Global Brand Manager</p>
-              </div>
-            </div>
-            <!-- Carousel Item 4 -->
-            <div class="carousel-item">
-              <!-- testimonials card -->
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="fas fa-quote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa reiciendis dignissimos perspiciatis
-                  odit ratione veritatis sed! Molestiae eaque explicabo qui!
-                  <i class="fas fa-quote-right"></i>
-                <div class="ratings p-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                </p>
-              </div>
-              <!-- client picture -->
-              <div class="testimonials__picture">
-                <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
-              </div>
-              <!-- client name and role -->
-              <div class="testimonials__name">
-                <h3>Uhuru Kenyatta</h3>
-                <p class="fw-light">CEO & Founder</p>
-              </div>
+            "
+          >
+            <div class="services__pic">
+              <img
+                src="images/services/service-2.png"
+                alt="web development illustration"
+                class="img-fluid"
+              />
             </div>
           </div>
-          <div class="text-center">
-            <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button"
-              data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            </button>
-            <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button"
-              data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            </button>
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <h3 class="display-3--title mt-1">Penetration Testing</h3>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nisi praesentium, minima laudantium, maiores consectetur
+                deserunt, voluptas inventore reiciendis ab modi quisquam
+                distinctio exercitationem voluptatem quam cumque sequi est!
+                Repellat ea, porro et quas iste eaque accusamus, maxime beatae
+                aperiam non, neque nostrum? Totam atque non, dolores dignissimos
+                numquam quaerat.
+              </p>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded border-primary"
+              >
+                Learn more
+                <span>
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Start the cloud hosting content -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+            <div class="services__content">
+              <h3 class="display-3--title mt-1">Network Security Monitoring</h3>
+              <p class="lh-lg">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Nesciunt est perferendis culpa sit dolor eaque officia quidem
+                non soluta doloremque harum saepe tempora, velit earum vel ipsam
+                qui facilis iure, assumenda, incidunt commodi reprehenderit
+                consequuntur. In esse corporis dolorem ullam debitis maiores
+                nulla eius suscipit!
+              </p>
+              <button
+                type="button"
+                class="rounded-pill btn-rounded border-primary"
+              >
+                Learn more
+                <span>
+                  <i class="fas fa-arrow-right"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end"
+          >
+            <div class="services__pic">
+              <img
+                src="images/services/service-3.png"
+                alt="cloud hosting illustration"
+                class="img-fluid"
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#fff" fill-opacity="1"
-        d="M0,224L48,192C96,160,192,96,288,101.3C384,107,480,181,576,213.3C672,245,768,235,864,208C960,181,1056,139,1152,117.3C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-      </path>
-    </svg>
-  </section>
-  <!-- Start section 6 - The FAQ -->
-  <section id="faq" class="faq">
-    <div class="container mb-5">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
-        <div class="heading-line"></div>
-        <p class="lead">Frequently asked questions. Get knowledge beforehand.</p>
-      </div>
-      <!-- Accordion content -->
-      <div class="row mt-5">
-        <div class="col-md-12">
-          <div class="accordion" id="accordionExample">
-            <!-- Accordion item 1 -->
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  What is a landing page and how does it work?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  A landing page is any web page that a consumer can land on, but in the marketing realm, it's usually a
-                  standalone page, distinct from your homepage or any other page, that serves a single and focused
-                  purpose. A landing page is a follow up to any promises that you've made in your content.
+    </section>
+    <!-- Start section 6 - The FAQ -->
+    <section id="faq" class="faq">
+      <div class="container mb-5">
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold text-uppercase">FAQ</h1>
+          <div class="heading-line"></div>
+          <p class="lead">
+            Frequently asked questions. Get knowledge beforehand.
+          </p>
+        </div>
+        <!-- Accordion content -->
+        <div class="row mt-5">
+          <div class="col-md-12">
+            <div class="accordion" id="accordionExample">
+              <!-- Accordion item 1 -->
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What is a landing page and how does it work?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    A landing page is any web page that a consumer can land on,
+                    but in the marketing realm, it's usually a standalone page,
+                    distinct from your homepage or any other page, that serves a
+                    single and focused purpose. A landing page is a follow up to
+                    any promises that you've made in your content.
+                  </div>
                 </div>
               </div>
-            </div>
-            <!-- Accordion item 2 -->
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  What is a top landing page?
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  In digital marketing, a landing page is a standalone web page, created specifically for a marketing or
-                  advertising campaign. ... Unlike web pages, which typically have many goals and encourage exploration,
-                  landing pages are designed with a single focus or goal, known as a call to action (or CTA, for short).
+              <!-- Accordion item 2 -->
+              <div class="accordion-item shadow mb-3">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    What is a top landing page?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    In digital marketing, a landing page is a standalone web
+                    page, created specifically for a marketing or advertising
+                    campaign. ... Unlike web pages, which typically have many
+                    goals and encourage exploration, landing pages are designed
+                    with a single focus or goal, known as a call to action (or
+                    CTA, for short).
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item shadow mb-3">
-              <!-- Accordion item 3 -->
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  What is the difference between a landing page and a website?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  What's the Difference Between a Landing Page and a Homepage? ... Landing page traffic comes from ads —
-                  Homepage traffic comes from many sources. Landing pages are separate from a business' website —
-                  Homepages are the front page of a business' website. Landing pages have a single goal — Homepages
-                  promote website browsing.
+              <div class="accordion-item shadow mb-3">
+                <!-- Accordion item 3 -->
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    What is the difference between a landing page and a website?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    What's the Difference Between a Landing Page and a Homepage?
+                    ... Landing page traffic comes from ads — Homepage traffic
+                    comes from many sources. Landing pages are separate from a
+                    business' website — Homepages are the front page of a
+                    business' website. Landing pages have a single goal —
+                    Homepages promote website browsing.
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="accordion-item shadow mb-3">
-              <!-- Accordion item 4 -->
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Do you need a website to have a landing page?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  A landing page can be part of a website, but you also don't need a website to have a landing page. ...
-                  Landing pages always include a sign up form to collect subscriber information, such as email
-                  addresses, names, interests, location, and more.
+              <div class="accordion-item shadow mb-3">
+                <!-- Accordion item 4 -->
+                <h2 class="accordion-header" id="headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    Do you need a website to have a landing page?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    A landing page can be part of a website, but you also don't
+                    need a website to have a landing page. ... Landing pages
+                    always include a sign up form to collect subscriber
+                    information, such as email addresses, names, interests,
+                    location, and more.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- Start section 8 - Get Started -->
-  <section id="contact" class="get-started">
-    <div class="container">
-      <div class="row text-center">
-        <h1 class="display-3 fw-bold text-capitalize">Get Started</h1>
-        <div class="heading-line"></div>
-        <p class="lh-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi aliquid totam doloremque.</p>
-      </div>
-      <!-- Start the CTA content -->
-      <div class="row text-white">
-        <div class="col-12 col-lg-6 gradient shadow p-3">
-          <div class="cta-info w-100">
-            <h4 class="display-4 fw-bold">Ready to see how Cyber Security Services can help?</h4>
-            <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita incidunt perspiciatis, numquam ullam
-              corrupti quam qui, veritatis aut ex tempora cupiditate.
-            </p>
-            <h3 class="display-3--brief">What will be the next step?</h3>
-            <ul class="cta-info__list">
-              <li>We'll prepare the proposal</li>
-              <li>We'll discuss it together</li>
-              <li>Let's start the discussion</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 bg-white shadow p-3">
-          <div class="form w-100 pb-2">
-            <h4 class="display-3--title mb-5">get started now</h4>
-            <form action="#" class="row">
-              <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="First Name" id="inputFirstName"
-                  class="shadow form-control form-control-lg">
-              </div>
-              <div class="col-lg-6 col-md-6 mb-3">
-                <input type="text" placeholder="Last Name" id="inputLastName"
-                  class="shadow form-control form-control-lg">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <input type="email" placeholder="Email Address" id="inputEmail"
-                  class="shadow form-control form-control-lg">
-              </div>
-              <div class="col-lg-12 mb-3">
-                <textarea name="message" placeholder="Message" id="message" rows="8"
-                  class="shadow form-control form-control-lg"></textarea>
-              </div>
-              <div class="text-center d-grid mt-1">
-                <button type="button" class="btn btn-primary rounded-pill pt-3 pb-3">
-                  Submit
-                  <i class="fas fa-paper-plane"></i>
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- Start section 9 - The Footer -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <!-- Content for the mobile number -->
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-          <div class="contact-box__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" viewBox="0 0 24 24"
-              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <path
-                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
-              <path d="M15 7a2 2 0 0 1 2 2" />
-              <path d="M15 3a6 6 0 0 1 6 6" />
-            </svg>
-          </div>
-          <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">1-800-555-5555</a>
-            <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
-          </div>
-        </div>
-        <!-- Content for the email -->
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-          <div class="contact-box__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened" viewBox="0 0 24 24"
-              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <polyline points="3 9 12 15 21 9 12 3 3 9" />
-              <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
-              <line x1="3" y1="19" x2="9" y2="13" />
-              <line x1="15" y1="13" x2="21" y2="19" />
-            </svg>
-          </div>
-          <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">infor@company.com</a>
-            <p class="contact-box__info--subtitle">Online Support</p>
-          </div>
-        </div>
-        <!-- Content for location -->
-        <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
-          <div class="contact-box__icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2" viewBox="0 0 24 24"
-              stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-              <line x1="18" y1="6" x2="18" y2="6.01" />
-              <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
-              <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
-              <line x1="9" y1="4" x2="9" y2="17" />
-              <line x1="15" y1="15" x2="15" y2="20" />
-            </svg>
-          </div>
-          <div class="contact-box__info">
-            <a href="" class="contact-box__info--title">New York, USA</a>
-            <p class="contact-box__info--subtitle">NY 10012, US</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Start the social media content -->
-    <div class="footer-sm" style="background-color: #212121;">
+    </section>
+    <!-- Start section 8 - Get Started -->
+    <section id="contact" class="get-started">
       <div class="container">
-        <div class="row py-4 text-center text-white">
-          <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-            Connect with us on social media
-          </div>
-          <div class="col-lg-7 col-md-6">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
+        <div class="row text-center">
+          <h1 class="display-3 fw-bold text-capitalize">Get Started</h1>
+          <div class="heading-line"></div>
+          <p class="lh-lg">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi
+            aliquid totam doloremque.
+          </p>
         </div>
-      </div>
-    </div>
-    <!-- Start the copyright info -->
-    <div class="footer-bottom pt-5 pb-5">
-      <div class="container">
-        <div class="tow text-center text-white">
-          <div class="col-12">
-            <div class="footer-bottom__copyright">
-              &copy Copyright 2021 | Created by <a href="#">John Bouakhasith</a>
+        <!-- Start the CTA content -->
+        <div class="row text-white">
+          <div class="col-12 col-lg-6 gradient shadow p-3">
+            <div class="cta-info w-100">
+              <h4 class="display-4 fw-bold">
+                Ready to see how Digital Security can help?
+              </h4>
+              <p class="lh-lg">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Expedita incidunt perspiciatis, numquam ullam corrupti quam qui,
+                veritatis aut ex tempora cupiditate.
+              </p>
+              <h3 class="display-3--brief">What will be the next step?</h3>
+              <ul class="cta-info__list">
+                <li>We'll prepare the proposal</li>
+                <li>We'll discuss it together</li>
+                <li>Let's start the discussion</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 bg-white shadow p-3">
+            <div class="form w-100 pb-2">
+              <h4 class="display-3--title mb-5">get started now</h4>
+              <form action="#" class="row">
+                <div class="col-lg-6 col-md-6 mb-3">
+                  <input
+                    type="text"
+                    placeholder="First Name"
+                    id="inputFirstName"
+                    class="shadow form-control form-control-lg"
+                  />
+                </div>
+                <div class="col-lg-6 col-md-6 mb-3">
+                  <input
+                    type="text"
+                    placeholder="Last Name"
+                    id="inputLastName"
+                    class="shadow form-control form-control-lg"
+                  />
+                </div>
+                <div class="col-lg-12 mb-3">
+                  <input
+                    type="email"
+                    placeholder="Email Address"
+                    id="inputEmail"
+                    class="shadow form-control form-control-lg"
+                  />
+                </div>
+                <div class="col-lg-12 mb-3">
+                  <textarea
+                    name="message"
+                    placeholder="Message"
+                    id="message"
+                    rows="8"
+                    class="shadow form-control form-control-lg"
+                  ></textarea>
+                </div>
+                <div class="text-center d-grid mt-1">
+                  <button
+                    type="button"
+                    class="btn btn-primary rounded-pill pt-3 pb-3"
+                  >
+                    Submit
+                    <i class="fas fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
-  <!-- Back to top button -->
-  <a href="#" class="shadow btn-primary rounded-circle back-to-top">
-    <i class="fas fa-chevron-up"></i>
-  </a>
-  <!-- JavaScript -->
-  <script src="assets/vendors/js/glightbox.min.js"></script>
-  <script type="text/javascript">
-    const lightbox = GLightbox({
-      href: "https://youtu.be/SB-qEYVdvXA",
-      type: "video",
-      source: "youtube",
-      width: 900,
-    });
-  </script>
-  <script src="assets/js/bootstrap.bundle.js"></script>
-</body>
-
+    </section>
+    <!-- Start section 9 - The Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <!-- Content for the mobile number -->
+          <div
+            class="
+              col-md-4 col-lg-4
+              contact-box
+              pt-1
+              d-md-block d-lg-flex d-flex
+            "
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-phone-call"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                />
+                <path d="M15 7a2 2 0 0 1 2 2" />
+                <path d="M15 3a6 6 0 0 1 6 6" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="" class="contact-box__info--title">1-800-555-5555</a>
+              <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
+            </div>
+          </div>
+          <!-- Content for the email -->
+          <div
+            class="
+              col-md-4 col-lg-4
+              contact-box
+              pt-1
+              d-md-block d-lg-flex d-flex
+            "
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-mail-opened"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                <line x1="3" y1="19" x2="9" y2="13" />
+                <line x1="15" y1="13" x2="21" y2="19" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="" class="contact-box__info--title">infor@company.com</a>
+              <p class="contact-box__info--subtitle">Online Support</p>
+            </div>
+          </div>
+          <!-- Content for location -->
+          <div
+            class="
+              col-md-4 col-lg-4
+              contact-box
+              pt-1
+              d-md-block d-lg-flex d-flex
+            "
+          >
+            <div class="contact-box__icon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-tabler icon-tabler-map-2"
+                viewBox="0 0 24 24"
+                stroke-width="1"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <line x1="18" y1="6" x2="18" y2="6.01" />
+                <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                <polyline
+                  points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15"
+                />
+                <line x1="9" y1="4" x2="9" y2="17" />
+                <line x1="15" y1="15" x2="15" y2="20" />
+              </svg>
+            </div>
+            <div class="contact-box__info">
+              <a href="" class="contact-box__info--title">New York, USA</a>
+              <p class="contact-box__info--subtitle">NY 10012, US</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start the social media content -->
+      <div class="footer-sm" style="background-color: #212121">
+        <div class="container">
+          <div class="row py-4 text-center text-white">
+            <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+              Connect with us on social media
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Start the copyright info -->
+      <div class="footer-bottom pt-5 pb-5">
+        <div class="container">
+          <div class="tow text-center text-white">
+            <div class="col-12">
+              <div class="footer-bottom__copyright">
+                &copy Copyright 2021 | Created by
+                <a href="#">John Bouakhasith</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Back to top button -->
+    <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </a>
+    <!-- JavaScript -->
+    <script src="assets/vendors/js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({
+        href: "https://youtu.be/SB-qEYVdvXA",
+        type: "video",
+        source: "youtube",
+        width: 900,
+      });
+    </script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
