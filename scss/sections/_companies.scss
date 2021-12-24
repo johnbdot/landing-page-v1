@@ -10,7 +10,7 @@
     img {
       height: 100%;
       &:hover {
-        filter: grayscale(120);
+        transform: scale(1.8);
       }
     }
   }
